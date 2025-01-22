@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+#Create a file 
+      - name: Create a File
+        run: |
+          echo "Bu bir test dosyasıdır." > test2.txt
+          echo "Bu ikinci test dosyasıdır." > test3.txt
+
+      
+        
